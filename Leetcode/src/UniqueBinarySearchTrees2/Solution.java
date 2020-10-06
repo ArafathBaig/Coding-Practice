@@ -1,6 +1,10 @@
 package UniqueBinarySearchTrees2;
 
 import javax.swing.tree.TreeNode;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Definition for a binary tree node.
@@ -19,7 +23,7 @@ import javax.swing.tree.TreeNode;
  */
 class Solution {
 
-    Map<String,List<TreeNode>> map = new HashMap<>();
+    Map<String, List<TreeNode>> map = new HashMap<>();
     public List<TreeNode> generateTrees(int n) {
 
         if(n==0)
