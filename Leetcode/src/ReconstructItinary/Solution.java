@@ -1,6 +1,6 @@
 package ReconstructItinary;
 
-import java.util.List;
+import java.util.*;
 
 class Solution {
     public List<String> findItinerary(List<List<String>> tickets) {
