@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a52dfd-8561-405d-b185-b459860800c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Coding.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeChef/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPOJ/SPOJ.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPOJ/src/FindKthPrime/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerEarth/src/MacroPrimePrime/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
