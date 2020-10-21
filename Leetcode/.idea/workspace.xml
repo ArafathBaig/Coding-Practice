@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a52dfd-8561-405d-b185-b459860800c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GeeksForGeeks/src/MinimizeTheDifference/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DuplicateNumber/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +68,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602084329596" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1603002708053">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1603293554070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603002708053" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603293554070" />
     <state x="209" y="34" key="new project wizard" timestamp="1603002722735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
