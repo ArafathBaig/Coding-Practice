@@ -7,7 +7,6 @@ class GFG
 {
     public static void main (String[] args)
     {
-
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
 
@@ -18,12 +17,13 @@ class GFG
             for(int i = 0 ; i < s.length() ; i++){
                 char c = s.charAt(i);
 
-                if(!deq.isEmpty() && deq.peekLast() == '{' && c == '}')
+                if(!deq.isEmpty() && deq.peekLast() == '[' && c == ']')
                     deq.pollLast();
                 else
                     deq.addLast(c);
             }
 
+            System.out.println(deq.size());
             if(deq.size()%2 == 1){
                 System.out.println(-1);
                 continue;
@@ -31,7 +31,7 @@ class GFG
             int count = 0;
 
             boolean open = true;
-            char check = '{';
+            char check = '[';
             while(!deq.isEmpty()){
 
                 char c = deq.peekFirst();
@@ -40,7 +40,7 @@ class GFG
 
                 open = !open;
 
-                check = open ? '{' : '}';
+                check = open ? '[' : ']';
 
                 deq.pollFirst();
             }
