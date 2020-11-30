@@ -2,6 +2,7 @@ package Presum2d;
 
 /* package codechef; // don't place package name! */
 
+/* package codechef; // don't place package name! */
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -36,10 +37,13 @@ class Codechef
 
             for(int j= r1+1 ; j <= r2+1 ;j++){
                 for(int k = c1+1 ; k <= c2+1 ;k++){
-                    arr[k][j] += val;
+                    arr[j][k] += val;
                 }
             }
         }
+
+        //  for(int a[]: arr)
+        //     System.out.println(Arrays.toString(a));
 
         int sum = 0;
         for(int i = 1 ; i <= m ;i++){
@@ -55,9 +59,12 @@ class Codechef
 
         for(int i = 2 ; i <= m ;i++){
             for(int j = 2 ; j <=n ;j++){
-                arr[i][j] = arr[i][j] + arr[i-1][j] + arr[i][j-1] - arr[i][j];
+                arr[i][j] = arr[i][j] + arr[i-1][j] + arr[i][j-1] - arr[i-1][j-1];
             }
         }
+
+        // for(int a[]: arr)
+        //     System.out.println(Arrays.toString(a));
 
 
         StringBuilder sb = new StringBuilder();
@@ -74,3 +81,4 @@ class Codechef
         System.out.println(sb);
     }
 }
+
