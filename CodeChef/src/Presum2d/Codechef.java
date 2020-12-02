@@ -20,7 +20,7 @@ class Codechef
         int u= scan.nextInt();
         int v= scan.nextInt();
 
-        int arr[][] = new int[m+1][n+1];
+        long arr[][] = new long[m+1][n+1];
 
         for(int i = 1 ; i<=m ;i++){
             for(int j = 1; j <= n ;j++){
@@ -28,24 +28,35 @@ class Codechef
             }
         }
 
+        long[][] pre = new long[m+1][n+1];
         for(int i = 0 ; i < u ; i++){
             int val = scan.nextInt();
-            int r1 = scan.nextInt();
-            int c1 = scan.nextInt();
-            int r2 = scan.nextInt();
-            int c2 = scan.nextInt();
+            int r1 = scan.nextInt()+1;
+            int c1 = scan.nextInt()+1;
+            int r2 = scan.nextInt()+1;
+            int c2 = scan.nextInt()+1;
 
-            for(int j= r1+1 ; j <= r2+1 ;j++){
-                for(int k = c1+1 ; k <= c2+1 ;k++){
-                    arr[j][k] += val;
-                }
+            for(int j= r1 ; j <= r2 ;j++){
+
+                pre[j][c1] += val;
+
+                if(c2 != m)
+                    pre[j][c2+1] -= val;
+
             }
         }
 
         //  for(int a[]: arr)
         //     System.out.println(Arrays.toString(a));
 
-        int sum = 0;
+        for(int i= 1 ; i <= m ;i++){
+            for(int j = 1 ; j <=n ; j++){
+                pre[i][j] += pre[i][j-1];
+                arr[i][j] += pre[i][j];
+            }
+        }
+
+        long sum = 0;
         for(int i = 1 ; i <= m ;i++){
             sum+= arr[1][i];
             arr[1][i] = sum;
@@ -74,7 +85,7 @@ class Codechef
             int r2 = scan.nextInt()+1;
             int c2 = scan.nextInt()+1;
 
-            int ans = arr[r2][c2] - arr[r2][c1-1] - arr[r1-1][c2] + arr[r1-1][c1-1];
+            long ans = arr[r2][c2] - arr[r2][c1-1] - arr[r1-1][c2] + arr[r1-1][c1-1];
             sb.append(ans).append("\n");
         }
 
