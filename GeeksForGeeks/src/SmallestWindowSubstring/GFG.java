@@ -27,6 +27,7 @@ class solve
     // if no such window exists, return "-1"
     public static String smallestWindow(String s, String p){
         // Your code here
+
         Map<Character, Integer> map = new HashMap<>();
         int m = s.length();
         int n = p.length();
