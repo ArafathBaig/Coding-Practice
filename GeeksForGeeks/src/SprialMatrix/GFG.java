@@ -1,6 +1,5 @@
-package SmallestWindowSubstring;
+package SprialMatrix;
 
-// { Driver Code Starts
 // { Driver Code Starts
 
 import java.io.*;
@@ -77,3 +76,4 @@ class Solution{
         return list;
     }
 }
+
