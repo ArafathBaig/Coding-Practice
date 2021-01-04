@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a52dfd-8561-405d-b185-b459860800c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GeeksForGeeks/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GeeksForGeeks/out/production/GeeksForGeeks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GeeksForGeeks/out/production/GeeksForGeeks/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchInRotatedArray/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
