@@ -9,9 +9,6 @@ public class Main {
 
         int n = scan.nextInt();
 
-        if(n == 0)
-            return;
-
         int a[] = new int[n];
 
         for(int i =0 ; i < n; i++){
@@ -19,9 +16,6 @@ public class Main {
         }
 
         int m = scan.nextInt();
-
-        if(m == 0)
-            return;
 
         int b[]=  new int[m];
         for(int i = 0 ; i < m ; i++){
@@ -40,7 +34,6 @@ public class Main {
             }else if(ni > nj){
                 sumj+=b[j++];
             }else{
-                flag = 1;
                 res += Math.max(sumi+ni, sumj+nj);
                 i++;
                 j++;
@@ -55,7 +48,6 @@ public class Main {
         while(j < m)
             sumj+=a[j++];
 
-        if(flag == 1)
             res += Math.max(sumi, sumj);
 
         System.out.println(res);
