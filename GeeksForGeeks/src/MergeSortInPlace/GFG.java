@@ -34,6 +34,7 @@ public class GFG {
                int val = a[j];
                int ind = j;
 
+
                while(ind != i){
                    a[ind] = a[ind-1];
                    ind--;
