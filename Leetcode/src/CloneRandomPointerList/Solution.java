@@ -18,6 +18,7 @@ class Node {
 import org.w3c.dom.Node;
 
 import java.util.HashMap;
+import java.util.Map;
 
 class Solution {
     public Node copyRandomList(Node head) {
