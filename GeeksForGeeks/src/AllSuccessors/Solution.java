@@ -12,10 +12,10 @@ class Node
     Node(int d) {data = d; left =right= next= null; }
 }
 
-public class GFG2
+public class GFG
 {
     public static Node target;
-    GFG2(){
+    GFG(){
         target=null;
     }
     public static void inorder(Node root)
