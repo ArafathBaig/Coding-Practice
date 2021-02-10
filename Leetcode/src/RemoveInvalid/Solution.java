@@ -1,6 +1,6 @@
 package RemoveInvalid;
 
-import java.util.Stack;
+import java.util.*;
 
 class Solution {
     int max = 0;
