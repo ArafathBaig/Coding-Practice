@@ -12,5 +12,5 @@ public class EmployeeReportFormat extends ReportFormatter {
         this.format = format;
     }
 
-    
+
 }

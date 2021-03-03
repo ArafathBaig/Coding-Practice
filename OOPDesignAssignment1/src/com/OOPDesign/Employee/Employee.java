@@ -7,6 +7,13 @@ public class Employee {
     private String department;
     private Boolean working;
 
+    public Employee(long id, String name, String department, Boolean working) {
+        this.id = id;
+        this.name = name;
+        this.department = department;
+        this.working = working;
+    }
+
     public long getId() {
         return id;
     }
