@@ -1,6 +1,6 @@
 package com.OOPDesign.Employee;
 
-public class Employee {
+abstract public class Employee {
 
     private long id;
     private String name;
@@ -12,7 +12,11 @@ public class Employee {
         this.name = name;
         this.department = department;
         this.working = working;
+
+        System.out.println("Employee is created");
     }
+
+    public abstract void performDuties();
 
     public long getId() {
         return id;

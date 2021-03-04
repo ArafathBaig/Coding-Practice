@@ -3,6 +3,7 @@ package com.OOPDesign;
 import com.OOPDesign.DAO.ConnectionManager;
 import com.OOPDesign.DAO.EmployeeDAO;
 import com.OOPDesign.Employee.Employee;
+import com.OOPDesign.OpenClosedPatter.Doctor;
 import com.OOPDesign.Report.EmployeeReportFormat;
 
 public class Client {
@@ -11,11 +12,11 @@ public class Client {
     public static void main(String[] args) {
         ConnectionManager cm = new ConnectionManager();
         employeeDAO = new EmployeeDAO(cm);
-        Employee employee = new Employee(5,"Arafath","Engineer",true);
-
-        hireNewEmployee(employee);
-        terminateEmployee(employee);
-        printReport(employee);
+//        Employee doctor = new Doctor(5,"Arafath","Engineer",true);
+//
+//        hireNewEmployee(employee);
+//        terminateEmployee(employee);
+//        printReport(employee);
     }
 
     private static void hireNewEmployee(Employee employee){
