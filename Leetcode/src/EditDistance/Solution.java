@@ -1,5 +1,7 @@
 package EditDistance;
 
+import java.util.Arrays;
+
 class Solution {
     public int minDistance(String word1, String word2) {
 
