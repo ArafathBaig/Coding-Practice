@@ -15,8 +15,7 @@ class Solution {
 
         int dp[][] = new int[k+1][k+1];
 
-        for(int a[] : dp)
-            Arrays.fill(a,-1);
+
 
         return lcs(s,n,s.length(), s.length(),dp);
     }
