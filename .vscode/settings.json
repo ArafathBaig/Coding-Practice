@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "OOPDesignAssignment1/src/com/StrategyPattern/Client",
+        "OOPDesignAssignment1/src/com/ObserverPattern"
+    ]
+}
